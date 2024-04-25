@@ -1,5 +1,5 @@
 # Stereotyped-CLT
-The analysis of high-density lineage tree of lung progenitor cell differentiation model in vitro suggests that stable cell type compositions among sub-CLTs and stereotypical development program support development robustness.
+The analysis of high-density lineage tree of lung progenitor cell differentiation model in vitro suggests that stable cell type composition among sub-CLTs and stereotypical development program support development robustness.
 # about main figures 
 1. all codes could be found according to the file name for each main figure.
 2. all datas used by code could be found according to the file name for each main figure in the file folder "data".
