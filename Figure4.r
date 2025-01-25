@@ -24,8 +24,8 @@ all.subtree.depth<-mdepth.df%>%filter(grepl("A1",sample))  ## loop for sample na
 
 colnames(all.subtree.depth)[1]<-"subtree"
 
-# filter subtree by depth>0.3 
-# subtree with depth<0.3 was not enough size of leaf for cell type composition test
+# filter subtree by height>0.3, which normalized depth < 0.7
+# subtree with height<0.3 was not enough size of leaf for cell type composition test
 
 df<-all.subtree.depth
 df$mdepth.group<-df$mdepth/max(df$mdepth) # normalized from 0 to 1
