@@ -174,7 +174,7 @@ cv.intro.by.celltype<-lapply(seq(celltype),function(i){
   # for random tree
   # cv of intra lineage 
   min.cv.random.tree<-mclapply(seq(1:1000),mc.cores=60,function(f){
-    random.gene.exp<-gene.exp.filter[,sample(1:ncol(gene.exp.filter),replace=T)]
+    random.gene.exp<-gene.exp.filter[,sample(1:ncol(gene.exp.filter),replace=F)]
     colnames(random.gene.exp)<-colnames(gene.exp.filter)
     sim.gene.exp.df<-random.gene.exp
     sim.subtree.gene.exp<-lapply(seq(nrow(all.subtree.filter)),function(x){                              
